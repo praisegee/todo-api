@@ -1,0 +1,48 @@
+body {
+	background-color: #afafaf;
+	font-family: Arial;
+}
+
+#todo-wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+	/* border: 1px solid black; */
+
+	background-color: #fff;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	box-shadow: 2px 1px 15px 1px #202020;
+}
+
+
+#form-wrapper {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0rem;
+	border-bottom: 1px solid #acacac;
+	margin-bottom: 20px;
+	padding: 30px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+#title {
+	border-radius: 0;
+}
+
+#submit {
+	color: #fff;
+	background-color: #50dd50;
+	border-radius: 0;
+}
+
+.flex-wrapper {
+	display: flex;
+}
+
+.task-wrapper {
+	padding: 5px 20px 5px;
+	border-bottom: 1px solid #afafaf;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
